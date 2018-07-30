@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Brand</title>
+    <title>Startseite</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <link rel="stylesheet" href="fonts/simple-line-icons.min.css">
@@ -23,7 +23,9 @@
             </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="navbar-toggler-icon"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
             <div class="collapse navbar-collapse"id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">

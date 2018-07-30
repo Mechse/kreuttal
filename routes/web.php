@@ -55,10 +55,6 @@ Route::get('/facilities', function () {
     return view('facilities');
 });
 
-Route::get('/login', function () {
-    return view('user.login');
-});
-
 Route::get('/booking', function () {
     return view('forms.booking');
 });
@@ -66,3 +62,15 @@ Route::get('/booking', function () {
 Route::get('/calender', function () {
     return view('forms.calender');
 });
+
+// User Login Routes
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');

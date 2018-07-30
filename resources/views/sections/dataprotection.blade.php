@@ -4,8 +4,8 @@
         <section class="clean-block clean-faq dark">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info">Datenschutz</h2>
-                    <p>Unser Datenschutz findest du hier..</p>
+                    <h2 class="text-info">Datenschutzerklärung</h2>
+                    <p>Unsere Datenschutzerklärung findest du hier..</p>
                 </div>
                 <div class="block-content">
                     <div class="faq-item">
